@@ -1,9 +1,0 @@
-function OrdenarNumerosAlea(tamañoArreglo){
-    var nombreArreglo = new Array(tamañoArreglo);
-    
-    for(var i = 0; i < nombreArreglo.length; i++){
-        nombreArreglo[i] = Math.ceil((Math.random()*100)+1);
-        console.log(nombreArreglo[i]);
-        }
-}
-OrdenarNumerosAlea(30);
