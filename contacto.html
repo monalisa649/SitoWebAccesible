@@ -1,0 +1,70 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+    
+    <meta name="description" content="Soporte informático en linea">
+    <title>Contacto SIO</title>
+    <script type="text/javascript">
+        function confirmacion() 
+        {
+           if(confirm("¿Desea continuar?"))
+       {
+          return true;
+       }
+       else
+       {
+          return false;
+       }
+        }
+       </script>
+    </head>
+    <body>
+
+            <header class="contacto">
+                    <nav>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="servicios.html">Servicios</a></li>
+                                    <li><a href="contacto.html">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="textos1">
+                                <h1 class="titulo1">SIO</h1> 
+                               
+                                </div>
+                         
+                                <div class="form">
+                                    <form action="enviodatos.php" method="POST" onsubmit="return confirmacion()">
+                                        <h2>CONTACTO</h2>
+                                        <input type="text" name="nombre"id=""placeholder="Nombre" required>
+                                        <input type="text" name="apellido"id=""placeholder="Apellido" required>
+                                        <input type="email" name= "correo" id="correo" placeholder="Email" required>
+                                        <input type="text" name= "telefono" id="" placeholder="Teléfono" required>
+                                        <textarea name="mensaje" placeholder="Escriba aquí su  mensaje" required></textarea>
+                                        <button type="submit"  id="boton" value="Enviar"></button>
+                                        
+                                        
+                                    
+                                    </form>
+                                </div>
+                        </header> 
+                    
+                    
+                
+                            
+                                        
+            <footer>
+                    <h2>Ubicación:
+                        <br>Calle 13 N° 7C-21 Barrio Portal de Castilla<br>
+                          Villamaria Caldas<br>
+                          email: ISO@gmail.com </h2>
+                </footer>
+    </body>
+    
+    </html>

@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    
+    body{
+    font-family: 'open sans';
+    font-size: 16%;
+    margin: 0;
+    }
+
+header{
+    width: 100%;
+    height:auto;
+    background-image: url(seis.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: rgb(0,150,150,0.9);
+    text-align: center;
+}
+.gracias{
+    width: 100%;
+    height:1000px;
+    background-image: url(seis.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+     
+}
+header .textos {
+    font-family: tahoma;
+}
+
+header .titulo {
+    font-size: 250px; 
+    text-shadow: 5px 5px 3px whitesmoke;
+    line-height: 10%;
+    margin-top: 1%;
+}
+
+header .subtitulo {
+    font-size: 60px;
+    color: burlywood;
+    text-shadow: 2px 2px 2px whitesmoke;
+    line-height: 450%;
+  
+    
+}
+.sesgoabajo{
+    z-index: 10;
+    position: absolute;
+    bottom:0;
+    left:0;
+    border-width: 0 0 18vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+
+}
+#menu{
+    font-size: 25px;
+    text-align: left;
+    line-height: 40px;
+    color: white;
+ }
+
+ #menu ul{
+     list-style: none;
+     margin:80px;
+     padding: 0;
+ }
+
+ #menu ul li{
+     display:inline-block
+ }
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color:darkcyan;
+}
+.acerca_de{
+    text-align: center;
+    font-size:30px;
+    font-family: tahoma;
+    margin-bottom: 3px;
+    font-weight: 200;
+}
+.parrafo{
+    margin-bottom: 13px;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 35px;
+    color:black;
+    margin: 40px;
+}
+
+
+header form{
+    width: 500px;
+    margin: auto ;
+    background:rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 120px;
+    border-radius: 7px;
+    align-self:right;
+    
+}
+footer {
+    background: rgb(0,139,139,0.6);
+    clear: both;
+    height: 150px;
+    background-image: url(binario.jpg);
+
+}
+
+footer h2{
+    font-size: 23px;
+    text-align: center;
+    padding:20px;
+    font-style: italic;
+    color: white;
+}
+form {
+    width: 280px;
+    height: 500px;
+    background: rgb(4, 141, 141,0.3);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float:center;
+}
+
+
+form h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+}
+
+form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+form button{
+    background: darkcyan;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+
+    
+    font-size: 17px;
+    border: none;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+/*Estilos página servicios*/
+header .textos1 {
+    font-family: tahoma;
+}
+
+header .titulo1 {
+    font-size: 250px; 
+    text-shadow: 5px 5px 3px whitesmoke;
+    line-height: 10%;
+}
+
+header .subtitulo1 {
+    font-size: 60px;
+    color: burlywood;
+    text-shadow: 2px 2px 2px whitesmoke;
+    line-height: 450%;
+  
+    
+}
+figure{
+   width: 400px;
+   height:400px; 
+   display:inline-flex;
+   overflow: hidden; 
+   padding: 3%;
+   position: relative;
+  
+}
+
+ img{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+
+figcaption{
+    font-style: italic;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+video{
+      padding: 1%;
+}
+
+/*cabecera contacto*/
+header .contacto{
+    width: 100px;
+    height:auto;
+    background-image: url(seis.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: rgb(0,150,150,0.9);
+    text-align: center;
+}
+    @media(max-width:480px){
+    body{
+        width: 100%;
+    }
+}
